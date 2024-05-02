@@ -170,3 +170,44 @@ html, body{
     text-align: right;
 }
 
+.section-call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+}
+
+.section-call-to-action .call-to-action-content{
+    width: 80%;
+    background-color: #3882F6;
+    padding: 4% 8%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.call-to-action-content > .call-to-action-text{
+    font-size: large;
+}
+
+.call-to-action-content > button{
+    background-color: transparent;
+    padding: 8px 24px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 3%;
+}

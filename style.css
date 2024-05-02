@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body{
+    height: 100vw;
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.hero .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    width: 80%;
+    padding: 10px 40px 20px;
+}
+
+.header > h4{
+    font-size: 24px;
+}
+
+.header > .nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links > li{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-links > li > a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+.hero .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 40px 20px;
+    margin-bottom: 40px;
+}
+
+.main .content{
+    width: 50%;
+}
+
+.main #main-img{
+    width: 450px;
+    height: 215px;
+    background-image: url("https://images.pexels.com/photos/5199144/pexels-photo-5199144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center;
+    background-size: cover;
+}
+.content h2{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.content p{
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.content > button{
+    background-color: #3882F6;
+    padding: 8px 20px;
+    border: 1px solid #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+

@@ -32,7 +32,8 @@ html, body{
     padding: 10px 40px 20px;
 }
 
-.header > h4{
+.header > #logo{
+    user-select: none;
     font-size: 24px;
 }
 
@@ -138,5 +139,34 @@ html, body{
     font-size: 15px;
     margin-top: 10px;
     text-align: center;
+}
+
+.section-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.section-quote .quote-block{
+    padding: 20px 40px;
+    width: 70%;
+}
+
+.quote-block > #quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.quote-block > #quote-author{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: right;
 }
 
